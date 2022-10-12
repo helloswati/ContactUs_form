@@ -142,4 +142,5 @@
 }
 body {
     background: url("../images/img_bg_3.jpg");
+    background-repeat: no-repeat;
 }
