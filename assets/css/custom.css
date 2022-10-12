@@ -92,21 +92,40 @@
     text-shadow: #e9ecef;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     h3{
         width: 100%;
-        font-size: 30px;
-
+        font-size: 1rem;
     }
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
     }
-  }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .col-md-12{
+      width: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    /* For mobile phones: */
+    .col-md-12{
+      width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    body{
+        width: 100%;
+    }
+}
 
 
 .register-heading h1 {
@@ -149,6 +168,6 @@
     padding-top: 15px;
 }
 body {
-    background: url("../images/img_bg_3.jpg");
+    background-color: currentColor;
     background-repeat: no-repeat;
 }
