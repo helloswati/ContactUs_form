@@ -25,9 +25,9 @@
 
 @media (min-width: 1024px) {
     #loader {
-       right: 22%;
-       left: 20%;
-        position: absolute;
+       right: 20%;
+       left: 30%;
+       position: absolute;
     }
 
     
