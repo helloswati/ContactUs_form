@@ -23,10 +23,10 @@
     animation: spin 1s linear infinite;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1200px) {
     #loader {
        right: 50%;
-       left: 50%;
+       left: 52%;
        position: absolute;
     }
 
