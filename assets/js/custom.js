@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxmOuDVowJE67I3IqUxST0w5dQGOTlX-oX1HXAohNr1zFuzY6m2ZCiEGOixU1t3gPr8/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxDjp6-S8nqyJPzOpePhWUBnNNkxnYm-Dung_iolqMQjrbc36BrTdGa4u6ojiRyuQX_/exec'
 const form = document.querySelector("#form1")
 const backbtn = document.querySelector("#back-btn")
 form.addEventListener('submit', e => {
